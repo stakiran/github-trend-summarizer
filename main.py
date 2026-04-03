@@ -174,7 +174,7 @@ def save_summary(repo, summary_text):
 def update_index(today_str, entries):
     """docs/index.md を更新する（最新日付を先頭に prepend）
 
-    entries: list of {"repo": str, "stars": str, "keywords": str, "oneliner": str}
+    entries: list of {"repo": str, "owner": str, "stars": str, "keywords": str, "oneliner": str}
     """
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -182,7 +182,8 @@ def update_index(today_str, entries):
     new_lines = [f"# {today_str}", ""]
     for e in entries:
         stars = format_stars(e["stars"])
-        line = f"- [{e['repo']}]({e['repo']}.md) ⭐{stars} {e['keywords']} {e['oneliner']}"
+        url = f"https://github.com/{e['owner']}/{e['repo']}"
+        line = f"- [{e['repo']}]({e['repo']}.md) [⭐{stars}]({url}) {e['keywords']} {e['oneliner']}"
         new_lines.append(line)
     new_lines.append("")
     new_section = "\n".join(new_lines)
@@ -238,6 +239,7 @@ def main():
             oneliner = info["description"]
             index_entries.append({
                 "repo": repo,
+                "owner": owner,
                 "stars": info["stars"],
                 "keywords": keywords,
                 "oneliner": oneliner,
@@ -267,6 +269,7 @@ def main():
 
         index_entries.append({
             "repo": repo,
+            "owner": owner,
             "stars": info["stars"],
             "keywords": keywords,
             "oneliner": oneliner,
