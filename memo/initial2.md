@@ -34,7 +34,7 @@ GitHub Trends のリポジトリをニュースのように収集し、サマリ
 - 見出しは `# yyyy-mm-dd`
 - 各行のフォーマット:
   ```
-  - [repo-a](repo-a.md) ⭐1.2k Python, CLI, AI このリポジトリの端的な説明
+  - [repo-a](repo-a.md) [⭐1.2k](GitHubのURL) Python, CLI, AI このリポジトリの端的な説明
   ```
 - star数・言語はトレンドページから取得
 - キーワード（3つ以内）と端的な説明は Claude API で生成

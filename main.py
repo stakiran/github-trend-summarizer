@@ -107,6 +107,7 @@ SYSTEM_PROMPT = """\
 
 出力の先頭に、以下のフォーマットで YAML frontmatter を必ず付与すること。
 ---
+url: リポジトリのURL
 keywords: キーワード1, キーワード2, キーワード3
 oneliner: このリポジトリの端的な日本語の説明（1文）
 ---
@@ -117,6 +118,7 @@ def generate_summary_with_claude_cli(owner, repo, language, description, repo_di
     """claude CLI でリポジトリを自律探索させてサマリーを生成する"""
     user_prompt = f"""このディレクトリは GitHub リポジトリ {owner}/{repo} のソースコードです。
 
+リポジトリのURL: https://github.com/{owner}/{repo}
 リポジトリの説明: {description}
 主要言語: {language}
 
