@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 """GitHub Trend Summarizer - トレンドリポジトリを収集しサマリーを生成する"""
 
-import os
 import subprocess
 import sys
 from datetime import date
 from pathlib import Path
 
-import anthropic
 import requests
 from bs4 import BeautifulSoup
 
@@ -104,78 +102,36 @@ def download_repo(owner, repo):
     return False
 
 
-def collect_source_files(repo_dir, max_chars=50000):
-    """サマリー生成用にソースファイルの内容を収集する"""
-    content_parts = []
-    total = 0
-
-    # README を優先
-    for name in ["README.md", "README.rst", "README.txt", "README"]:
-        readme = repo_dir / name
-        if readme.exists():
-            text = readme.read_text(encoding="utf-8", errors="replace")
-            content_parts.append(f"=== {name} ===\n{text}")
-            total += len(text)
-            break
-
-    # その他の主要ファイルを収集
-    extensions = {".py", ".js", ".ts", ".go", ".rs", ".java", ".c", ".cpp", ".h",
-                  ".rb", ".php", ".swift", ".kt", ".scala", ".cs", ".toml", ".yaml",
-                  ".yml", ".json", ".md"}
-    for path in sorted(repo_dir.rglob("*")):
-        if total >= max_chars:
-            break
-        if not path.is_file():
-            continue
-        if path.suffix.lower() not in extensions:
-            continue
-        # skip large files and common non-essential dirs
-        rel = path.relative_to(repo_dir)
-        skip_dirs = {"node_modules", "vendor", "dist", "build", ".git", "__pycache__"}
-        if any(part in skip_dirs for part in rel.parts):
-            continue
-        try:
-            text = path.read_text(encoding="utf-8", errors="replace")
-        except Exception:
-            continue
-        if len(text) > 10000:
-            text = text[:10000] + "\n... (truncated)"
-        content_parts.append(f"=== {rel} ===\n{text}")
-        total += len(text)
-
-    return "\n\n".join(content_parts)
-
-
-def generate_summary(client, owner, repo, language, description, source_text):
-    """Claude API でリポジトリのサマリーを生成する"""
-    prompt = f"""以下は GitHub リポジトリ {owner}/{repo} のソースコードです。
+def generate_summary_with_claude_cli(owner, repo, language, description, repo_dir):
+    """claude CLI でリポジトリを自律探索させてサマリーを生成する"""
+    prompt = f"""このディレクトリは GitHub リポジトリ {owner}/{repo} のソースコードです。
 
 リポジトリの説明: {description}
 主要言語: {language}
 
-{source_text}
+自分でソースコードを探索して、以下の2つを生成してください。出力はMarkdownのみで、余計な前置きは不要です。
 
----
-
-以下の2つを生成してください:
-
-1. **このリポジトリについて**: 日本語で書いて。
+1. 以下を A4 一枚程度で整理して。
 
 - このリポジトリは何？
 - このリポジトリは何が嬉しいの？既存の似た手段と比較して
 - 使うときはどういう流れに沿う？
 
-2. **メタ情報** (最後に以下のフォーマットで出力):
+2. メタ情報として、最後に以下のフォーマットで出力して。
 META_KEYWORDS: キーワード1, キーワード2, キーワード3
 META_ONELINER: このリポジトリの端的な日本語の説明（1文）
 """
 
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}],
+    result = subprocess.run(
+        ["claude", "-p", prompt, "--max-turns", "10"],
+        capture_output=True,
+        text=True,
+        cwd=str(repo_dir),
     )
-    return message.content[0].text
+    if result.returncode != 0:
+        print(f"  claude CLI error: {result.stderr}")
+        return None
+    return result.stdout
 
 
 def parse_summary_response(response_text):
@@ -236,12 +192,6 @@ def update_index(today_str, entries):
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("Error: ANTHROPIC_API_KEY environment variable is required.")
-        sys.exit(1)
-
-    client = anthropic.Anthropic(api_key=api_key)
     today_str = date.today().isoformat()
 
     print(f"=== GitHub Trend Summarizer ({today_str}) ===\n")
@@ -288,14 +238,13 @@ def main():
         if not repo_dir.exists():
             continue
 
-        print("  Collecting source files...")
-        source_text = collect_source_files(repo_dir)
-
-        print("  Generating summary with Claude API...")
-        response = generate_summary(
-            client, owner, repo,
-            info["language"], info["description"], source_text,
+        print("  Generating summary with claude CLI...")
+        response = generate_summary_with_claude_cli(
+            owner, repo,
+            info["language"], info["description"], repo_dir,
         )
+        if response is None:
+            continue
         summary, keywords, oneliner = parse_summary_response(response)
 
         # keywords が空ならトレンドページの情報で補完
