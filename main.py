@@ -258,7 +258,7 @@ def main():
         if not oneliner and info["description"]:
             oneliner = info["description"]
 
-        save_summary(repo, summary)
+        save_summary(repo, response)
 
         index_entries.append({
             "repo": repo,
