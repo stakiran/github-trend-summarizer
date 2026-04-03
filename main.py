@@ -125,7 +125,7 @@ def generate_summary_with_claude_cli(owner, repo, language, description, repo_di
 自分でソースコードを探索して、以下を A4 一枚程度で整理して。
 
 - このリポジトリは何？
-- このリポジトリは何が嬉しいの？既存の似た手段と比較して
+- このリポジトリは何が嬉しいの？既存の似た手段と比較して。
 - 使うときはどういう流れに沿う？
 """
 
