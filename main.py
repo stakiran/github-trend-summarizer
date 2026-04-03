@@ -199,6 +199,7 @@ def update_index(today_str, entries):
 
 
 def main():
+    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
     today_str = date.today().isoformat()
 
     print(f"=== GitHub Trend Summarizer ({today_str}) ===\n")
@@ -209,7 +210,9 @@ def main():
     if not repos:
         print("No trending repositories found.")
         sys.exit(1)
-    print(f"Found {len(repos)} repositories.\n")
+    if limit:
+        repos = repos[:limit]
+    print(f"Processing {len(repos)} repositories.\n")
 
     index_entries = []
 
