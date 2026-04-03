@@ -102,28 +102,33 @@ def download_repo(owner, repo):
     return False
 
 
+SYSTEM_PROMPT = """\
+出力はMarkdownのみで、余計な前置きは不要です。
+
+出力の先頭に、以下のフォーマットで YAML frontmatter を必ず付与すること。
+---
+keywords: キーワード1, キーワード2, キーワード3
+oneliner: このリポジトリの端的な日本語の説明（1文）
+---
+"""
+
+
 def generate_summary_with_claude_cli(owner, repo, language, description, repo_dir):
     """claude CLI でリポジトリを自律探索させてサマリーを生成する"""
-    prompt = f"""このディレクトリは GitHub リポジトリ {owner}/{repo} のソースコードです。
+    user_prompt = f"""このディレクトリは GitHub リポジトリ {owner}/{repo} のソースコードです。
 
 リポジトリの説明: {description}
 主要言語: {language}
 
-自分でソースコードを探索して、以下の2つを生成してください。出力はMarkdownのみで、余計な前置きは不要です。
-
-1. 以下を A4 一枚程度で整理して。
+自分でソースコードを探索して、以下を A4 一枚程度で整理して。
 
 - このリポジトリは何？
 - このリポジトリは何が嬉しいの？既存の似た手段と比較して
 - 使うときはどういう流れに沿う？
-
-2. メタ情報として、最後に以下のフォーマットで出力して。
-META_KEYWORDS: キーワード1, キーワード2, キーワード3
-META_ONELINER: このリポジトリの端的な日本語の説明（1文）
 """
 
     result = subprocess.run(
-        ["claude", "-p", prompt, "--max-turns", "10"],
+        ["claude", "-p", user_prompt, "--system-prompt", SYSTEM_PROMPT, "--max-turns", "10"],
         capture_output=True,
         text=True,
         cwd=str(repo_dir),
@@ -135,25 +140,24 @@ META_ONELINER: このリポジトリの端的な日本語の説明（1文）
 
 
 def parse_summary_response(response_text):
-    """Claude の応答からサマリー本文とメタ情報を分離する"""
-    lines = response_text.strip().split("\n")
+    """Claude の応答から frontmatter とサマリー本文を分離する"""
+    text = response_text.strip()
     keywords = ""
     oneliner = ""
-    summary_lines = []
+    body = text
 
-    for line in lines:
-        if line.startswith("META_KEYWORDS:"):
-            keywords = line.replace("META_KEYWORDS:", "").strip()
-        elif line.startswith("META_ONELINER:"):
-            oneliner = line.replace("META_ONELINER:", "").strip()
-        else:
-            summary_lines.append(line)
+    if text.startswith("---"):
+        parts = text.split("---", 2)
+        if len(parts) >= 3:
+            frontmatter = parts[1]
+            body = parts[2].strip()
+            for line in frontmatter.strip().split("\n"):
+                if line.startswith("keywords:"):
+                    keywords = line.replace("keywords:", "").strip()
+                elif line.startswith("oneliner:"):
+                    oneliner = line.replace("oneliner:", "").strip()
 
-    # 末尾の空行を除去
-    while summary_lines and not summary_lines[-1].strip():
-        summary_lines.pop()
-
-    return "\n".join(summary_lines), keywords, oneliner
+    return body, keywords, oneliner
 
 
 def save_summary(repo, summary_text):
