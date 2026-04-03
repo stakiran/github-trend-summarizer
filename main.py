@@ -131,6 +131,7 @@ def generate_summary_with_claude_cli(owner, repo, language, description, repo_di
         ["claude", "-p", user_prompt, "--system-prompt", SYSTEM_PROMPT, "--max-turns", "10"],
         capture_output=True,
         text=True,
+        encoding="utf-8",
         cwd=str(repo_dir),
     )
     if result.returncode != 0:
