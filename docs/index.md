@@ -1,3 +1,16 @@
+# 2026-04-06
+
+- [gallery](gallery.md) [⭐16.8k](https://github.com/google-ai-edge/gallery) on-device-ai, android, llm-inference, mediapipe, gemma オープンソースLLMをスマートフォン上で完全オフライン実行できるデモ・実験用Androidアプリ
+- [mlx-vlm](mlx-vlm.md) [⭐3.9k](https://github.com/Blaizzy/mlx-vlm) Python MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
+- [openscreen](openscreen.md) [⭐22.3k](https://github.com/siddharthvaddem/openscreen) TypeScript Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
+- [goose](goose.md) [⭐36.8k](https://github.com/block/goose) Rust an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+- [onyx](onyx.md) [⭐24.9k](https://github.com/onyx-dot-app/onyx) Python Open Source AI Platform - AI Chat with advanced features that works with every LLM
+- [pi-mono](pi-mono.md) [⭐31.9k](https://github.com/badlogic/pi-mono) AI agent, coding agent, unified LLM API, TypeScript, CLI 20以上のLLMプロバイダを統一APIで扱えるコーディングエージェントCLI・TUI/Web UIライブラリ・Slackボットを含むAIエージェントツールキット
+- [fff.nvim](fff.nvim.md) [⭐3.7k](https://github.com/dmtrKovalenko/fff.nvim) Rust The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS
+- [LiteRT-LM](LiteRT-LM.md) [⭐1.5k](https://github.com/google-ai-edge/LiteRT-LM) on-device LLM, edge inference, LiteRT, Gemma, mobile AI Google製のエッジデバイス向け高性能LLM推論フレームワーク
+- [tdesktop](tdesktop.md) [⭐31.0k](https://github.com/telegramdesktop/tdesktop) C++ Telegram Desktop messaging app
+- [freeCodeCamp](freeCodeCamp.md) [⭐441.4k](https://github.com/freeCodeCamp/freeCodeCamp) プログラミング学習, 無料教育, カリキュラム, 認定証, オープンソース 数学・プログラミング・CS を無料で学べるオープンソースの学習プラットフォーム
+
 # 2026-04-05
 
 - [mlx-vlm](mlx-vlm.md) [⭐3.7k](https://github.com/Blaizzy/mlx-vlm) MLX, Vision-Language-Model, Apple-Silicon, VLM推論, ファインチューニング Apple Silicon上でVision Language Model（VLM）の推論・微調整をローカル実行するためのPythonパッケージ。
