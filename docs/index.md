@@ -1,3 +1,14 @@
+# 2026-04-05
+
+- [mlx-vlm](mlx-vlm.md) [⭐3.7k](https://github.com/Blaizzy/mlx-vlm) MLX, Vision-Language-Model, Apple-Silicon, VLM推論, ファインチューニング Apple Silicon上でVision Language Model（VLM）の推論・微調整をローカル実行するためのPythonパッケージ。
+- [onyx](onyx.md) [⭐24.4k](https://github.com/onyx-dot-app/onyx) Python Open Source AI Platform - AI Chat with advanced features that works with every LLM
+- [oh-my-codex](oh-my-codex.md) [⭐15.8k](https://github.com/Yeachan-Heo/oh-my-codex) TypeScript OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
+- [openscreen](openscreen.md) [⭐20.5k](https://github.com/siddharthvaddem/openscreen) TypeScript Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
+- [tdesktop](tdesktop.md) [⭐30.9k](https://github.com/telegramdesktop/tdesktop) telegram, desktop-messenger, cpp, qt, mtproto Telegram公式のデスクトップ向けメッセージングクライアントのオープンソース実装
+- [goose](goose.md) [⭐35.8k](https://github.com/block/goose) AI-agent, MCP, LLM-agnostic, autonomous-coding, Rust 任意のLLMで動作し、MCPベースの拡張機構を持つオープンソースの自律型AIコーディングエージェント
+- [agent-framework](agent-framework.md) [⭐8.8k](https://github.com/microsoft/agent-framework) AI Agent, Multi-Agent Workflow, Microsoft, LLM Orchestration, Python, .NET AIエージェントとマルチエージェントワークフローの構築・オーケストレーション・デプロイを Python/.NET で行うための Microsoft 製フレームワーク。
+- [sherlock](sherlock.md) [⭐79.5k](https://github.com/sherlock-project/sherlock) Python Hunt down social media accounts by username across social networks
+
 # 2026-04-04
 
 - [oh-my-codex](oh-my-codex.md) [⭐13.9k](https://github.com/Yeachan-Heo/oh-my-codex) TypeScript OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
