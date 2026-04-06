@@ -1,3 +1,20 @@
+# 2026-04-07
+
+- [GitNexus](GitNexus.md) [⭐23.3k](https://github.com/abhigyanpatwari/GitNexus) knowledge-graph, code-intelligence, graph-rag, mcp, static-analysis ソースコードをナレッジグラフ化し、AIエージェントや対話的UIから依存関係・影響範囲・実行フローを即座に問い合わせられるコードインテリジェンスエンジン。
+- [gallery](gallery.md) [⭐17.7k](https://github.com/google-ai-edge/gallery) Kotlin A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
+- [goose](goose.md) [⭐38.0k](https://github.com/block/goose) Rust an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+- [LiteRT-LM](LiteRT-LM.md) [⭐1.9k](https://github.com/google-ai-edge/LiteRT-LM) C++ 
+- [immich](immich.md) [⭐96.8k](https://github.com/immich-app/immich) self-hosted, photo-management, google-photos-alternative Google Photos のようなリッチな写真・動画管理をセルフホスト環境で実現するオープンソースソリューション
+- [shannon](shannon.md) [⭐36.4k](https://github.com/KeygraphHQ/shannon) AI pentesting, vulnerability assessment, Claude Agent SDK, Temporal workflow, security automation Claude Agent SDKを活用し、ソースコード解析から脆弱性の実証攻撃までを自律的に行うAIペネトレーションテストツール。
+- [hermes-agent](hermes-agent.md) [⭐27.8k](https://github.com/NousResearch/hermes-agent) AI-agent, self-improving, multi-platform, tool-calling, NousResearch Nous Research が開発する、スキル自己学習機能付きのマルチプラットフォーム AI エージェントフレームワーク。
+- [qmd](qmd.md) [⭐18.6k](https://github.com/tobi/qmd) local-search, rag, sqlite, vector-search, mcp ローカル環境で完結するドキュメント検索エンジンCLIで、BM25・ベクトル検索・LLMリランキングを組み合わせたハイブリッド検索を提供する。
+- [Telegram-iOS](Telegram-iOS.md) [⭐8.3k](https://github.com/TelegramMessenger/Telegram-iOS) Telegram, iOS, Swift, メッセンジャー, オープンソース Telegram公式のiOSクライアントアプリの完全なソースコード
+- [obsidian-skills](obsidian-skills.md) [⭐20.4k](https://github.com/kepano/obsidian-skills) obsidian, agent-skills, markdown, claude-code, pkm AIエージェント（Claude Code等）にObsidianのMarkdown・Bases・Canvas・CLIの扱い方を教えるスキル集。
+- [ollama](ollama.md) [⭐167.6k](https://github.com/ollama/ollama) LLM, ローカル推論, モデル管理, REST API, llama.cpp 大規模言語モデル（LLM）をローカル環境で手軽にダウンロード・実行・管理するためのオールインワンツール。
+- [llama.cpp](llama.cpp.md) [⭐101.9k](https://github.com/ggml-org/llama.cpp) LLM, inference, C++, quantization, edge-deployment C/C++で実装された軽量・高速なLLM推論エンジンで、量子化によりコンシューマ向けハードウェアでも大規模言語モデルを動かせる。
+- [openscreen](openscreen.md) [⭐23.8k](https://github.com/siddharthvaddem/openscreen) TypeScript Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.
+- [personaplex](personaplex.md) [⭐7.2k](https://github.com/NVIDIA/personaplex) speech-to-speech, full-duplex, persona-control, voice-cloning, real-time-conversation テキストプロンプトで会話スタイル、音声プロンプトで声質を制御できるリアルタイム全二重音声対話モデル
+
 # 2026-04-06
 
 - [gallery](gallery.md) [⭐16.8k](https://github.com/google-ai-edge/gallery) on-device-ai, android, llm-inference, mediapipe, gemma オープンソースLLMをスマートフォン上で完全オフライン実行できるデモ・実験用Androidアプリ
