@@ -1,3 +1,14 @@
+# 2026-04-08
+
+- [gallery](gallery.md) [⭐18.7k](https://github.com/google-ai-edge/gallery) Kotlin A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
+- [LiteRT-LM](LiteRT-LM.md) [⭐2.5k](https://github.com/google-ai-edge/LiteRT-LM) C++ 
+- [personaplex](personaplex.md) [⭐7.8k](https://github.com/NVIDIA/personaplex) Python PersonaPlex code.
+- [GitNexus](GitNexus.md) [⭐24.4k](https://github.com/abhigyanpatwari/GitNexus) TypeScript GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
+- [qmd](qmd.md) [⭐19.4k](https://github.com/tobi/qmd) TypeScript mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐7.9k](https://github.com/forrestchang/andrej-karpathy-skills) Claude Code, CLAUDE.md, LLMコーディング品質, プロンプトガイドライン, Karpathy Andrej Karpathy が指摘した LLM コーディングの悪癖を矯正する Claude Code 向けガイドライン集。
+- [RedditVideoMakerBot](RedditVideoMakerBot.md) [⭐9.9k](https://github.com/elebumm/RedditVideoMakerBot) Reddit, 動画自動生成, TTS, YouTube Shorts, TikTok Redditの投稿・コメントを自動で縦型ショート動画に変換するPython製ボット
+- [seomachine](seomachine.md) [⭐3.8k](https://github.com/TheCraigHewitt/seomachine) Claude Code, SEO, コンテンツ作成, ブログ最適化, WordPress Claude Codeのカスタムコマンド・エージェント・Python分析を組み合わせ、SEO最適化されたブログ記事のリサーチから公開までを一気通貫で行うワークスペース。
+
 # 2026-04-07
 
 - [GitNexus](GitNexus.md) [⭐23.3k](https://github.com/abhigyanpatwari/GitNexus) knowledge-graph, code-intelligence, graph-rag, mcp, static-analysis ソースコードをナレッジグラフ化し、AIエージェントや対話的UIから依存関係・影響範囲・実行フローを即座に問い合わせられるコードインテリジェンスエンジン。
