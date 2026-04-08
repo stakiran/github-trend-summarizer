@@ -1,3 +1,17 @@
+# 2026-04-09
+
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐8.8k](https://github.com/forrestchang/andrej-karpathy-skills)  
+- [seomachine](seomachine.md) [⭐4.5k](https://github.com/TheCraigHewitt/seomachine) Python A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.
+- [gallery](gallery.md) [⭐19.4k](https://github.com/google-ai-edge/gallery) Kotlin A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
+- [personaplex](personaplex.md) [⭐8.4k](https://github.com/NVIDIA/personaplex) Python PersonaPlex code.
+- [LiteRT-LM](LiteRT-LM.md) [⭐2.9k](https://github.com/google-ai-edge/LiteRT-LM) C++ 
+- [RedditVideoMakerBot](RedditVideoMakerBot.md) [⭐10.4k](https://github.com/elebumm/RedditVideoMakerBot) Python Create Reddit Videos with just✨ one command ✨
+- [superpowers](superpowers.md) [⭐141.3k](https://github.com/obra/superpowers) claude-code, ai-agent-skills, tdd, subagent-driven-development, coding-workflow AIコーディングエージェント向けの体系的な開発ワークフロー（スキル集）を提供するプラグインフレームワーク。
+- [newton](newton.md) [⭐4.0k](https://github.com/newton-physics/newton) physics-simulation, gpu-accelerated, nvidia-warp, robotics, differentiable-physics NVIDIA Warp上に構築されたGPU高速物理シミュレーションエンジンで、ロボティクス・シミュレーション研究者向け。
+- [GitNexus](GitNexus.md) [⭐25.2k](https://github.com/abhigyanpatwari/GitNexus) TypeScript GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
+- [ai-hedge-fund](ai-hedge-fund.md) [⭐50.6k](https://github.com/virattt/ai-hedge-fund) マルチエージェント, LangGraph, 投資分析, LLM, バックテスト 著名投資家の思考パターンを模した複数のAIエージェントが協調して株式分析・売買判断を行う教育用プロジェクト
+- [harbor](harbor.md) [⭐28.1k](https://github.com/goharbor/harbor) container-registry, cloud-native, vulnerability-scanning, CNCF, OCI コンテナイメージの保存・署名・脆弱性スキャン・レプリケーションを統合的に提供するCNCF公式のクラウドネイティブレジストリ
+
 # 2026-04-08
 
 - [gallery](gallery.md) [⭐18.7k](https://github.com/google-ai-edge/gallery) Kotlin A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.
