@@ -1,3 +1,16 @@
+# 2026-04-10
+
+- [hermes-agent](hermes-agent.md) [⭐43.7k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐10.2k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [DeepTutor](DeepTutor.md) [⭐14.6k](https://github.com/HKUDS/DeepTutor) AI tutoring, multi-agent, RAG, personalized learning, LLM マルチエージェント協調とRAGを活用した、パーソナライズ型AI学習アシスタントプラットフォーム
+- [VoxCPM](VoxCPM.md) [⭐7.5k](https://github.com/OpenBMB/VoxCPM) text-to-speech, tokenizer-free, voice-cloning, multilingual, diffusion-autoregressive トークナイザを使わない直接拡散自己回帰アーキテクチャにより、多言語音声合成・声質デザイン・高忠実度ボイスクローニングを実現する大規模TTSモデル。
+- [opendataloader-pdf](opendataloader-pdf.md) [⭐13.6k](https://github.com/opendataloader-project/opendataloader-pdf) PDF parser, AI-ready data, RAG, reading order, table extraction, accessibility, hybrid mode, LangChain, MCP AI/RAG パイプライン向けに構造化データを高精度・高速に抽出するオープンソース PDF パーサー
+- [superpowers](superpowers.md) [⭐143.5k](https://github.com/obra/superpowers) Shell An agentic skills framework & software development methodology that works.
+- [seomachine](seomachine.md) [⭐5.1k](https://github.com/TheCraigHewitt/seomachine) Python A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.
+- [Archon](Archon.md) [⭐14.3k](https://github.com/coleam00/Archon) AI coding workflow, Claude Code SDK, DAG executor, worktree isolation, deterministic development AI コーディングエージェントの実行フローを YAML ワークフローとして定義・再現可能にするオープンソースのハーネスビルダー
+- [Kronos](Kronos.md) [⭐12.1k](https://github.com/shiyu-coder/Kronos) financial-time-series, foundation-model, candlestick-forecasting 世界45以上の取引所データで事前学習された、金融K線（ローソク足）時系列予測のための基盤モデル
+- [claudian](claudian.md) [⭐6.7k](https://github.com/YishenTu/claudian) obsidian, claude-code, ai-agent, plugin, vault ObsidianのサイドバーにClaude Codeのエージェントチャットを埋め込み、Vault内のファイルを直接AI操作できるプラグイン。
+
 # 2026-04-09
 
 - [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐8.8k](https://github.com/forrestchang/andrej-karpathy-skills)  
