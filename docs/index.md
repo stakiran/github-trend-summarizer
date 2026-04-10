@@ -1,3 +1,18 @@
+# 2026-04-11
+
+- [markitdown](markitdown.md) [⭐99.2k](https://github.com/microsoft/markitdown) markdown, converter, LLM, document, file-conversion あらゆるファイル形式（PDF・Office・画像・音声など）をMarkdownに変換するPythonツール
+- [Archon](Archon.md) [⭐15.4k](https://github.com/coleam00/Archon) TypeScript The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+- [hermes-agent](hermes-agent.md) [⭐51.4k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
+- [rowboat](rowboat.md) [⭐11.6k](https://github.com/rowboatlabs/rowboat) AI-coworker, knowledge-graph, local-first, memory, Electron メール・カレンダー・議事録などの業務コミュニケーションからナレッジグラフを自動構築し、文脈を踏まえて仕事を手伝うローカル動作のAIコワーカー。
+- [multica](multica.md) [⭐5.8k](https://github.com/multica-ai/multica) AI agents, task management, managed agents platform, Linear alternative, open-source AIコーディングエージェントを人間と同格のチームメンバーとして扱えるオープンソースのタスク管理プラットフォーム
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐11.6k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [Kronos](Kronos.md) [⭐12.6k](https://github.com/shiyu-coder/Kronos) Python Kronos: A Foundation Model for the Language of Financial Markets
+- [DeepTutor](DeepTutor.md) [⭐15.8k](https://github.com/HKUDS/DeepTutor) Python "DeepTutor: Agent-Native Personalized Learning Assistant"
+- [opendataloader-pdf](opendataloader-pdf.md) [⭐14.7k](https://github.com/opendataloader-project/opendataloader-pdf) Java PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
+- [superpowers](superpowers.md) [⭐145.6k](https://github.com/obra/superpowers) Shell An agentic skills framework & software development methodology that works.
+- [jq](jq.md) [⭐34.2k](https://github.com/jqlang/jq) json, command-line, filter, data-transformation, cli-tool JSON データをコマンドラインで自在にフィルタリング・変換するための軽量プロセッサ
+- [claude-code-best-practice](claude-code-best-practice.md) [⭐35.5k](https://github.com/shanraisshan/claude-code-best-practice) Claude Code, ベストプラクティス, エージェント設計, スキル, サブエージェント Claude Code の拡張機能（サブエージェント・スキル・コマンド・フック）の設計パターンを網羅的にまとめたリファレンス実装リポジトリ
+
 # 2026-04-10
 
 - [hermes-agent](hermes-agent.md) [⭐43.7k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
