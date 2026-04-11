@@ -247,7 +247,8 @@ def main():
             continue
 
         repo_dir = WORKSPACE_DIR / repo
-        if not repo_dir.exists():
+        if not repo_dir.exists() or not any(repo_dir.iterdir()):
+            print(f"  Skipping: {repo_dir} is empty or missing.")
             continue
 
         print("  Generating summary with claude CLI...")
