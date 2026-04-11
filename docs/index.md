@@ -1,3 +1,18 @@
+# 2026-04-12
+
+- [hermes-agent](hermes-agent.md) [⭐58.2k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
+- [markitdown](markitdown.md) [⭐101.9k](https://github.com/microsoft/markitdown) Python Python tool for converting files and office documents to Markdown.
+- [Archon](Archon.md) [⭐16.4k](https://github.com/coleam00/Archon) TypeScript The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐13.2k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [multica](multica.md) [⭐7.7k](https://github.com/multica-ai/multica) TypeScript The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+- [claude-code-best-practice](claude-code-best-practice.md) [⭐36.9k](https://github.com/shanraisshan/claude-code-best-practice) HTML practice made claude perfect
+- [VoxCPM](VoxCPM.md) [⭐9.7k](https://github.com/OpenBMB/VoxCPM) Python VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
+- [Kronos](Kronos.md) [⭐14.0k](https://github.com/shiyu-coder/Kronos) Python Kronos: A Foundation Model for the Language of Financial Markets
+- [opendataloader-pdf](opendataloader-pdf.md) [⭐15.5k](https://github.com/opendataloader-project/opendataloader-pdf) Java PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
+- [DeepTutor](DeepTutor.md) [⭐16.7k](https://github.com/HKUDS/DeepTutor) Python "DeepTutor: Agent-Native Personalized Learning Assistant"
+- [superpowers](superpowers.md) [⭐147.0k](https://github.com/obra/superpowers) Shell An agentic skills framework & software development methodology that works.
+- [awesome-design-systems](awesome-design-systems.md) [⭐22.1k](https://github.com/alexpate/awesome-design-systems) awesome-list, design-systems, UI-library, curated-list, pattern-library 世界中の企業・組織が公開しているデザインシステムを一覧化し、機能の有無をひと目で比較できるキュレーションリスト。
+
 # 2026-04-11
 
 - [markitdown](markitdown.md) [⭐99.2k](https://github.com/microsoft/markitdown) markdown, converter, LLM, document, file-conversion あらゆるファイル形式（PDF・Office・画像・音声など）をMarkdownに変換するPythonツール
