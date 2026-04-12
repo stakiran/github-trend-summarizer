@@ -1,3 +1,17 @@
+# 2026-04-13
+
+- [hermes-agent](hermes-agent.md) [⭐65.5k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
+- [Kronos](Kronos.md) [⭐15.6k](https://github.com/shiyu-coder/Kronos) Python Kronos: A Foundation Model for the Language of Financial Markets
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐15.8k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [markitdown](markitdown.md) [⭐104.3k](https://github.com/microsoft/markitdown) Python Python tool for converting files and office documents to Markdown.
+- [multica](multica.md) [⭐9.2k](https://github.com/multica-ai/multica) TypeScript The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+- [Archon](Archon.md) [⭐16.9k](https://github.com/coleam00/Archon) TypeScript The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+- [claude-code-best-practice](claude-code-best-practice.md) [⭐38.7k](https://github.com/shanraisshan/claude-code-best-practice) HTML practice made claude perfect
+- [VoxCPM](VoxCPM.md) [⭐11.1k](https://github.com/OpenBMB/VoxCPM) Python VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
+- [claude-mem](claude-mem.md) [⭐49.4k](https://github.com/thedotmack/claude-mem) claude-code, persistent-memory, plugin, context-injection, session-management Claude Code のセッション間でコンテキストを自動保存・圧縮・再注入し、AIの"記憶喪失"を解消するプラグイン。
+- [blender-mcp](blender-mcp.md) [⭐19.1k](https://github.com/ahujasid/blender-mcp) Blender, MCP, Claude, 3D modeling, AI-assisted Model Context Protocol (MCP) を介して Claude AI から Blender を直接操作し、自然言語で 3D シーンを構築できるブリッジツール。
+- [ai-hedge-fund](ai-hedge-fund.md) [⭐52.1k](https://github.com/virattt/ai-hedge-fund) Python An AI Hedge Fund Team
+
 # 2026-04-12
 
 - [hermes-agent](hermes-agent.md) [⭐58.2k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
