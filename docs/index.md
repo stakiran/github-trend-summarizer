@@ -1,3 +1,21 @@
+# 2026-04-14
+
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐23.8k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [hermes-agent](hermes-agent.md) [⭐76.3k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
+- [Kronos](Kronos.md) [⭐16.9k](https://github.com/shiyu-coder/Kronos) Python Kronos: A Foundation Model for the Language of Financial Markets
+- [claude-mem](claude-mem.md) [⭐52.8k](https://github.com/thedotmack/claude-mem) TypeScript A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+- [markitdown](markitdown.md) [⭐106.7k](https://github.com/microsoft/markitdown) Python Python tool for converting files and office documents to Markdown.
+- [multica](multica.md) [⭐10.9k](https://github.com/multica-ai/multica) TypeScript The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
+- [Archon](Archon.md) [⭐17.5k](https://github.com/coleam00/Archon) TypeScript The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+- [ralph](ralph.md) [⭐16.5k](https://github.com/snarktank/ralph) autonomous-agent, ai-coding, prd-driven-development, claude-code, amp, agent-loop PRD（要件定義書）を入力すると、AIエージェントがユーザーストーリーを1つずつ自律的に実装し切るオーケストレーションツール。
+- [ai-hedge-fund](ai-hedge-fund.md) [⭐52.8k](https://github.com/virattt/ai-hedge-fund) Python An AI Hedge Fund Team
+- [claude-cookbooks](claude-cookbooks.md) [⭐39.4k](https://github.com/anthropics/claude-cookbooks) Claude API, Jupyter Notebook, レシピ集, エージェント, RAG, ツール連携 Anthropic公式が提供する、Claude APIの実践的な使い方を70以上のノートブックで学べるレシピ集。
+- [claude-code-best-practice](claude-code-best-practice.md) [⭐41.3k](https://github.com/shanraisshan/claude-code-best-practice) HTML practice made claude perfect
+- [voicebox](voicebox.md) [⭐16.1k](https://github.com/jamiepine/voicebox) voice-synthesis, text-to-speech, voice-cloning, local-first, tauri, open-source ローカル環境で動作するオープンソースの音声合成スタジオで、ボイスクローニング・マルチエンジンTTS・オーディオエフェクト・マルチトラック編集を一つのGUIに統合したもの。
+- [blender-mcp](blender-mcp.md) [⭐19.4k](https://github.com/ahujasid/blender-mcp) Python 
+- [Deep-Live-Cam](Deep-Live-Cam.md) [⭐90.2k](https://github.com/hacksider/Deep-Live-Cam) deepfake, face-swap, real-time, insightface, onnx 1枚の顔画像だけでリアルタイム顔入れ替え・動画ディープフェイクを実現するデスクトップツール
+- [get-shit-done](get-shit-done.md) [⭐52.0k](https://github.com/gsd-build/get-shit-done) claude-code, meta-prompting, context-engineering, spec-driven-development, ai-workflow Claude Code 向けのメタプロンプト・コンテキストエンジニアリング・仕様駆動開発ワークフローシステム
+
 # 2026-04-13
 
 - [hermes-agent](hermes-agent.md) [⭐65.5k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
