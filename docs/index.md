@@ -1,3 +1,18 @@
+# 2026-04-15
+
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐32.2k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [claude-mem](claude-mem.md) [⭐55.4k](https://github.com/thedotmack/claude-mem) TypeScript A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+- [voicebox](voicebox.md) [⭐17.2k](https://github.com/jamiepine/voicebox) TypeScript The open-source voice synthesis studio
+- [editor](editor.md) [⭐11.4k](https://github.com/pascalorg/editor) 3D建築エディタ, Three.js, React, WebGPU, 間取り設計, BIM, オープンソース ブラウザ上で3D建築プロジェクトを作成・共有できるオープンソースのWebアプリケーション
+- [markitdown](markitdown.md) [⭐108.3k](https://github.com/microsoft/markitdown) Python Python tool for converting files and office documents to Markdown.
+- [superpowers](superpowers.md) [⭐152.0k](https://github.com/obra/superpowers) Shell An agentic skills framework & software development methodology that works.
+- [Apollo-11](Apollo-11.md) [⭐66.3k](https://github.com/chrislgarry/Apollo-11) Apollo 11, AGC, アセンブリ, 宇宙開発, NASA, ガイダンスコンピュータ, 歴史的ソースコード 1969年のアポロ11号で実際に使われた誘導コンピュータ (AGC) のオリジナルアセンブリソースコードをデジタル化・公開したリポジトリ
+- [ai-hedge-fund](ai-hedge-fund.md) [⭐54.0k](https://github.com/virattt/ai-hedge-fund) Python An AI Hedge Fund Team
+- [Kronos](Kronos.md) [⭐17.7k](https://github.com/shiyu-coder/Kronos) Python Kronos: A Foundation Model for the Language of Financial Markets
+- [hermes-agent](hermes-agent.md) [⭐83.8k](https://github.com/NousResearch/hermes-agent) Python The agent that grows with you
+- [claude-cookbooks](claude-cookbooks.md) [⭐40.1k](https://github.com/anthropics/claude-cookbooks) Jupyter Notebook A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+- [claude-code-best-practice](claude-code-best-practice.md) [⭐43.5k](https://github.com/shanraisshan/claude-code-best-practice) HTML from vibe coding to agentic engineering - practice makes claude perfect
+
 # 2026-04-14
 
 - [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐23.8k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
