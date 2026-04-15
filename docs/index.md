@@ -1,3 +1,19 @@
+# 2026-04-16
+
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐42.0k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [editor](editor.md) [⭐12.5k](https://github.com/pascalorg/editor) TypeScript Create and share 3D architectural projects.
+- [claude-mem](claude-mem.md) [⭐57.5k](https://github.com/thedotmack/claude-mem) TypeScript A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+- [dive-into-llms](dive-into-llms.md) [⭐29.3k](https://github.com/Lordog/dive-into-llms) LLM, 大規模言語モデル, チュートリアル, ファインチューニング, AIセキュリティ, RLHF, プロンプトエンジニアリング 上海交通大学発のLLM技術を体系的にハンズオンで学べるJupyter Notebook教材集
+- [ai-hedge-fund](ai-hedge-fund.md) [⭐54.9k](https://github.com/virattt/ai-hedge-fund) Python An AI Hedge Fund Team
+- [Apollo-11](Apollo-11.md) [⭐66.7k](https://github.com/chrislgarry/Apollo-11) Assembly Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.
+- [superpowers](superpowers.md) [⭐154.0k](https://github.com/obra/superpowers) Shell An agentic skills framework & software development methodology that works.
+- [voicebox](voicebox.md) [⭐18.1k](https://github.com/jamiepine/voicebox) TypeScript The open-source voice synthesis studio
+- [public-apis](public-apis.md) [⭐423.1k](https://github.com/public-apis/public-apis) API, カタログ, 無料API, 開発リソース, コミュニティキュレーション 無料で使えるパブリックAPIを分類・網羅的にまとめたコミュニティ運営のカタログリポジトリ
+- [open-agents](open-agents.md) [⭐2.5k](https://github.com/vercel-labs/open-agents) AI-agent, cloud-sandbox, Vercel, autonomous-coding, open-source-template Vercel上でバックグラウンド動作するAIコーディングエージェントを構築するためのオープンソーステンプレート。
+- [GenericAgent](GenericAgent.md) [⭐1.8k](https://github.com/lsdefine/GenericAgent) autonomous-agent, self-evolving, skill-tree, LLM-agent, computer-use 約3,000行のシードコードからスキルツリーを自己成長させ、6倍少ないトークン消費でフルシステム制御を実現する自律エージェント
+- [magika](magika.md) [⭐13.7k](https://github.com/google/magika) file-type-detection, deep-learning, content-type, onnx, security ディープラーニングでファイルの種類を高速・高精度に判定する Google 製ツール
+- [Claude-Code-Game-Studios](Claude-Code-Game-Studios.md) [⭐10.2k](https://github.com/Donchitos/Claude-Code-Game-Studios) Claude Code, ゲーム開発, AIエージェント, ワークフロー自動化, インディーゲーム Claude Codeを49体のAIエージェントが連携する仮想ゲーム開発スタジオに変えるテンプレートフレームワーク。
+
 # 2026-04-15
 
 - [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐32.2k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
