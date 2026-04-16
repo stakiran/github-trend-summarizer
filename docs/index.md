@@ -1,3 +1,18 @@
+# 2026-04-17
+
+- [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐49.1k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [claude-mem](claude-mem.md) [⭐59.4k](https://github.com/thedotmack/claude-mem) TypeScript A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.
+- [GenericAgent](GenericAgent.md) [⭐2.7k](https://github.com/lsdefine/GenericAgent) Python Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption
+- [voicebox](voicebox.md) [⭐19.0k](https://github.com/jamiepine/voicebox) TypeScript The open-source voice synthesis studio
+- [open-agents](open-agents.md) [⭐3.1k](https://github.com/vercel-labs/open-agents) TypeScript An open source template for building cloud agents.
+- [magika](magika.md) [⭐14.6k](https://github.com/google/magika) Python Fast and accurate AI powered file content types detection
+- [wacli](wacli.md) [⭐1.6k](https://github.com/steipete/wacli) WhatsApp, CLI, whatsmeow, Go, SQLite FTS5, sync, search, send, QRログイン, bot/automation WhatsApp Web プロトコル（whatsmeow）を土台に、メッセージのローカル同期・全文検索・送信・グループ管理までを 1 つの Go 製 CLI にまとめたサードパーティツール。
+- [cognee](cognee.md) [⭐15.7k](https://github.com/topoteretes/cognee) knowledge-graph, AI-memory, RAG, ECL-pipeline, vector-search, LLM, agent-memory, ontology あらゆる形式のデータを知識グラフ＋ベクタ検索の「AI メモリ」に変換し、エージェントに永続的な文脈を与える OSS ナレッジエンジン。
+- [dive-into-llms](dive-into-llms.md) [⭐30.6k](https://github.com/Lordog/dive-into-llms) Jupyter Notebook 《动手学大模型Dive into LLMs》系列编程实践教程
+- [openai-agents-python](openai-agents-python.md) [⭐21.1k](https://github.com/openai/openai-agents-python) OpenAI, Agents SDK, multi-agent, Python, LLM, tools, handoffs, guardrails, tracing, sandbox OpenAI 公式の軽量マルチエージェントフレームワーク。Agent／Tool／Handoff／Guardrail といった最小限の抽象で複雑なエージェントワークフローを Python で構築できる。
+- [evolver](evolver.md) [⭐3.1k](https://github.com/EvoMap/evolver) JavaScript The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai
+- [android-reverse-engineering-skill](android-reverse-engineering-skill.md) [⭐2.1k](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) Android, reverse-engineering, APK, jadx, API-extraction Android の APK/XAPK/JAR/AAR を Claude Code 上で decompile し、HTTP API を抽出・文書化するワークフローを提供する Claude Code プラグイン（Skill）。
+
 # 2026-04-16
 
 - [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐42.0k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
