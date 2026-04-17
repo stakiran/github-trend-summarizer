@@ -1,3 +1,19 @@
+# 2026-04-18
+
+- [evolver](evolver.md) [⭐4.1k](https://github.com/EvoMap/evolver) JavaScript The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai
+- [GenericAgent](GenericAgent.md) [⭐3.5k](https://github.com/lsdefine/GenericAgent) Python Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption
+- [android-reverse-engineering-skill](android-reverse-engineering-skill.md) [⭐2.7k](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) Shell Claude Code skill to support Android app's reverse engineering
+- [omi](omi.md) [⭐9.7k](https://github.com/BasedHardware/omi) AI wearable, 2nd brain, transcription, conversation capture, open source 画面と会話を24時間キャプチャしてリアルタイム文字起こし・要約・AIチャットを提供する、オープンソースの"第2の脳"プラットフォーム（ウェアラブル／スマホ／デスクトップ対応）。
+- [dive-into-llms](dive-into-llms.md) [⭐31.5k](https://github.com/Lordog/dive-into-llms) Jupyter Notebook 《动手学大模型Dive into LLMs》系列编程实践教程
+- [Claude-Code-Game-Studios](Claude-Code-Game-Studios.md) [⭐11.7k](https://github.com/Donchitos/Claude-Code-Game-Studios) Shell Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
+- [voicebox](voicebox.md) [⭐19.7k](https://github.com/jamiepine/voicebox) TypeScript The open-source voice synthesis studio
+- [craft-agents-oss](craft-agents-oss.md) [⭐4.3k](https://github.com/lukilabs/craft-agents-oss) TypeScript 
+- [opensre](opensre.md) [⭐1.3k](https://github.com/Tracer-Cloud/opensre) AI SRE, incident response, LangGraph, observability, RCA 本番インフラのインシデント調査・根本原因分析を自動化するオープンソースのAI SREエージェント構築フレームワーク。
+- [superpowers](superpowers.md) [⭐157.6k](https://github.com/obra/superpowers) Shell An agentic skills framework & software development methodology that works.
+- [openai-agents-python](openai-agents-python.md) [⭐21.7k](https://github.com/openai/openai-agents-python) Python A lightweight, powerful framework for multi-agent workflows
+- [magika](magika.md) [⭐15.4k](https://github.com/google/magika) Python Fast and accurate AI powered file content types detection
+- [chrome-devtools-mcp](chrome-devtools-mcp.md) [⭐35.8k](https://github.com/ChromeDevTools/chrome-devtools-mcp) TypeScript Chrome DevTools for coding agents
+
 # 2026-04-17
 
 - [andrej-karpathy-skills](andrej-karpathy-skills.md) [⭐49.1k](https://github.com/forrestchang/andrej-karpathy-skills)  A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
