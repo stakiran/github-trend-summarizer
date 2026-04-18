@@ -1,3 +1,16 @@
+# 2026-04-19
+
+- [thunderbolt](thunderbolt.md) [⭐1.5k](https://github.com/thunderbird/thunderbolt) AI client, self-hosted, cross-platform, Tauri, BYOM, E2E encryption, on-prem, offline-first, MPL-2.0 モデル・データを自分で所有できる、セルフホスト可能なクロスプラットフォーム AI クライアント（MZLA / Mozilla 関連）
+- [omi](omi.md) [⭐10.3k](https://github.com/BasedHardware/omi) Dart AI that sees your screen, listens to your conversations and tells you what to do
+- [openai-agents-python](openai-agents-python.md) [⭐22.2k](https://github.com/openai/openai-agents-python) Python A lightweight, powerful framework for multi-agent workflows
+- [evolver](evolver.md) [⭐4.9k](https://github.com/EvoMap/evolver) JavaScript The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai
+- [DeepGEMM](DeepGEMM.md) [⭐6.5k](https://github.com/deepseek-ai/DeepGEMM) FP8, GEMM, CUDA, MoE, JIT, Tensor Core, Hopper, Blackwell 低精度（FP8/FP4/BF16）GEMM と MoE 関連カーネルを JIT で提供する、簡潔かつ高性能な NVIDIA GPU 向けテンソルコアカーネル集
+- [dive-into-llms](dive-into-llms.md) [⭐32.0k](https://github.com/Lordog/dive-into-llms) Jupyter Notebook 《动手学大模型Dive into LLMs》系列编程实践教程
+- [claude-desktop-debian](claude-desktop-debian.md) [⭐3.4k](https://github.com/aaddrick/claude-desktop-debian) Claude Desktop, Linux, Electron, Debian, AppImage, RPM, Nix, AUR, MCP, パッケージング Windows 版 Claude Desktop を Linux ネイティブで動作するように再パッケージングするビルドスクリプト集。
+- [rustdesk](rustdesk.md) [⭐112.0k](https://github.com/rustdesk/rustdesk) Rust, リモートデスクトップ, セルフホスト, TeamViewer代替, P2P, Flutter, TCPホールパンチング, リレーサーバー Rust製のオープンソースなリモートデスクトップソフトで、TeamViewer/AnyDeskの代替として設定不要で動作し、サーバーを自分で建てれば完全にデータを自己管理できる。
+- [android-reverse-engineering-skill](android-reverse-engineering-skill.md) [⭐3.1k](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) Shell Claude Code skill to support Android app's reverse engineering
+- [arc-kit](arc-kit.md) [⭐680](https://github.com/tractorjuice/arc-kit) エンタープライズアーキテクチャ, ガバナンス, UK政府, ベンダー調達, AIアシスタント, スラッシュコマンド, テンプレート駆動, Claude Code プラグイン AIコーディングアシスタント上でスラッシュコマンドを叩くだけで、要件定義から調達・設計レビューまでのエンタープライズアーキテクチャ成果物を体系的に生成するガバナンスツールキット。
+
 # 2026-04-18
 
 - [evolver](evolver.md) [⭐4.1k](https://github.com/EvoMap/evolver) JavaScript The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai
