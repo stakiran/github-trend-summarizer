@@ -1,3 +1,14 @@
+# 2026-04-20
+
+- [FinceptTerminal](FinceptTerminal.md) [⭐6.2k](https://github.com/Fincept-Corporation/FinceptTerminal) Finance, Bloomberg alternative, Qt6, C++20, Python, Trading, Portfolio, AI Agents, Market Data, CFA Bloombergターミナル級の分析性能を目指す、C++20/Qt6ネイティブ＋埋め込みPythonで構築されたオープンソースの統合金融インテリジェンス・デスクトップアプリ。
+- [thunderbolt](thunderbolt.md) [⭐2.1k](https://github.com/thunderbird/thunderbolt) TypeScript AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.
+- [arc-kit](arc-kit.md) [⭐943](https://github.com/tractorjuice/arc-kit) HTML Enterprise Architecture Governance & Vendor Procurement Toolkit
+- [openai-agents-python](openai-agents-python.md) [⭐23.0k](https://github.com/openai/openai-agents-python) Python A lightweight, powerful framework for multi-agent workflows
+- [RuView](RuView.md) [⭐47.4k](https://github.com/ruvnet/RuView) WiFi CSI, 人物姿勢推定, 非接触バイタル, ESP32センシング, エッジAI 市販WiFiのCSI信号から、カメラなしで人物姿勢・呼吸・心拍・在室をリアルタイム検知するRustベースのセンシング基盤。
+- [evolver](evolver.md) [⭐5.4k](https://github.com/EvoMap/evolver) JavaScript The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai
+- [omi](omi.md) [⭐11.0k](https://github.com/BasedHardware/omi) Dart AI that sees your screen, listens to your conversations and tells you what to do
+- [Claude-Code-Game-Studios](Claude-Code-Game-Studios.md) [⭐13.3k](https://github.com/Donchitos/Claude-Code-Game-Studios) Shell Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
+
 # 2026-04-19
 
 - [thunderbolt](thunderbolt.md) [⭐1.5k](https://github.com/thunderbird/thunderbolt) AI client, self-hosted, cross-platform, Tauri, BYOM, E2E encryption, on-prem, offline-first, MPL-2.0 モデル・データを自分で所有できる、セルフホスト可能なクロスプラットフォーム AI クライアント（MZLA / Mozilla 関連）
