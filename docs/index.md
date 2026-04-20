@@ -1,3 +1,15 @@
+# 2026-04-21
+
+- [FinceptTerminal](FinceptTerminal.md) [⭐9.2k](https://github.com/Fincept-Corporation/FinceptTerminal) Python FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
+- [RuView](RuView.md) [⭐48.1k](https://github.com/ruvnet/RuView) Rust π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.
+- [thunderbolt](thunderbolt.md) [⭐2.7k](https://github.com/thunderbird/thunderbolt) TypeScript AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.
+- [paperless-ngx](paperless-ngx.md) [⭐39.3k](https://github.com/paperless-ngx/paperless-ngx) Python A community-supported supercharged document management system: scan, index and archive all your documents
+- [arc-kit](arc-kit.md) [⭐1.3k](https://github.com/tractorjuice/arc-kit) HTML Enterprise Architecture Governance & Vendor Procurement Toolkit
+- [worldmonitor](worldmonitor.md) [⭐49.9k](https://github.com/koala73/worldmonitor) geopolitical intelligence, real-time dashboard, news aggregation, globe visualization, TypeScript 500以上のニュースフィードと30以上の外部データソースをAIで横断的に集約・相関分析し、3D地球儀/平面マップ上にリアルタイムで可視化する「グローバル状況認識ダッシュボード」。
+- [openai-agents-python](openai-agents-python.md) [⭐23.9k](https://github.com/openai/openai-agents-python) Python A lightweight, powerful framework for multi-agent workflows
+- [DeepGEMM](DeepGEMM.md) [⭐6.8k](https://github.com/deepseek-ai/DeepGEMM) Cuda DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling
+- [Xray-core](Xray-core.md) [⭐37.4k](https://github.com/XTLS/Xray-core) proxy, VLESS, REALITY, XTLS, v2ray, circumvention, Go, VMess, Shadowsocks, Trojan VLESS/XTLS/REALITY を中核に据えた、検閲回避・秘匿通信向けの多機能プロキシプラットフォーム（v2ray-core 改良版）。
+
 # 2026-04-20
 
 - [FinceptTerminal](FinceptTerminal.md) [⭐6.2k](https://github.com/Fincept-Corporation/FinceptTerminal) Finance, Bloomberg alternative, Qt6, C++20, Python, Trading, Portfolio, AI Agents, Market Data, CFA Bloombergターミナル級の分析性能を目指す、C++20/Qt6ネイティブ＋埋め込みPythonで構築されたオープンソースの統合金融インテリジェンス・デスクトップアプリ。
