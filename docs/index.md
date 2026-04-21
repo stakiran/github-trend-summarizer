@@ -1,3 +1,13 @@
+# 2026-04-22
+
+- [FinceptTerminal](FinceptTerminal.md) [⭐11.4k](https://github.com/Fincept-Corporation/FinceptTerminal) Python FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
+- [thunderbolt](thunderbolt.md) [⭐3.4k](https://github.com/thunderbird/thunderbolt) TypeScript AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.
+- [claude-context](claude-context.md) [⭐6.5k](https://github.com/zilliztech/claude-context) TypeScript Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
+- [RuView](RuView.md) [⭐48.8k](https://github.com/ruvnet/RuView) Rust π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.
+- [ai-agents-for-beginners](ai-agents-for-beginners.md) [⭐57.5k](https://github.com/microsoft/ai-agents-for-beginners) AI Agents, Microsoft Agent Framework, Azure AI Foundry, Tutorial, Jupyter Notebook AIエージェント開発の基礎を12レッスン以上のハンズオン教材で学べる、Microsoft公式の初心者向けコース。
+- [RAG-Anything](RAG-Anything.md) [⭐16.7k](https://github.com/HKUDS/RAG-Anything) RAG, マルチモーダル, LightRAG, 知識グラフ, MinerU, VLM, 文書解析, Python PDF・画像・表・数式を含む文書を一気通貫で取り込めるマルチモーダル対応のオールインワン RAG フレームワーク。
+- [TrendRadar](TrendRadar.md) [⭐53.5k](https://github.com/sansan0/TrendRadar) trend-monitor, news-aggregation, keyword-filter, ai-analysis, multi-channel-push, rss, mcp, github-actions, docker, python 中国主要メディア11媒体＋RSSの話題をキーワード／AIで絞り込み、複数チャネルに自動通知する軽量な世論・トレンド監視ツール。
+
 # 2026-04-21
 
 - [FinceptTerminal](FinceptTerminal.md) [⭐9.2k](https://github.com/Fincept-Corporation/FinceptTerminal) Python FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
