@@ -1,6 +1,8 @@
 # github-trend-summarizer
 GitHub Trending のリポジトリを収集し、Claude Code で各リポジトリを自律探索してサマリーを生成するツール。
 
+## 👀 [index.md](docs\index.md) or [website](https://stakiran.github.io/github-trend-summarizer/)
+
 ## 必要なもの
 - Python 3.9+
 - [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) (`claude` コマンドが使えること)
