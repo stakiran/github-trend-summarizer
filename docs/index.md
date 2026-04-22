@@ -1,3 +1,16 @@
+# 2026-04-23
+
+- [claude-context](claude-context.md) [⭐7.4k](https://github.com/zilliztech/claude-context) TypeScript Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
+- [FinceptTerminal](FinceptTerminal.md) [⭐12.9k](https://github.com/Fincept-Corporation/FinceptTerminal) Python FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
+- [worldmonitor](worldmonitor.md) [⭐51.4k](https://github.com/koala73/worldmonitor) TypeScript Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+- [langfuse](langfuse.md) [⭐25.5k](https://github.com/langfuse/langfuse) LLM Observability, Prompt Management, Evaluation, Tracing, Open Source, TypeScript, ClickHouse, Next.js LLM アプリケーションの開発・監視・評価・デバッグを一気通貫で行うオープンソースの LLM エンジニアリングプラットフォーム。
+- [shannon](shannon.md) [⭐39.4k](https://github.com/KeygraphHQ/shannon) TypeScript Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.
+- [OpenMetadata](OpenMetadata.md) [⭐12.1k](https://github.com/open-metadata/OpenMetadata) metadata, data-catalog, data-discovery, data-lineage, data-governance データ発見・観測・ガバナンスを一元化する、コネクタ豊富なオープンソース統合メタデータプラットフォーム
+- [RuView](RuView.md) [⭐49.3k](https://github.com/ruvnet/RuView) Rust π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.
+- [RAG-Anything](RAG-Anything.md) [⭐17.5k](https://github.com/HKUDS/RAG-Anything) Python "RAG-Anything: All-in-One RAG Framework"
+- [TrendRadar](TrendRadar.md) [⭐54.4k](https://github.com/sansan0/TrendRadar) Python ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。
+- [Pixelle-Video](Pixelle-Video.md) [⭐5.5k](https://github.com/AIDC-AI/Pixelle-Video) AI動画生成, ショート動画, ComfyUI, TTS, 自動編集 トピックを一言入力するだけで台本作成〜画像/動画生成〜ナレーション合成〜BGM付き動画完成まで全自動で行う、ComfyUIベースのAIショート動画エンジン。
+
 # 2026-04-22
 
 - [FinceptTerminal](FinceptTerminal.md) [⭐11.4k](https://github.com/Fincept-Corporation/FinceptTerminal) Python FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.
