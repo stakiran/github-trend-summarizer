@@ -1,3 +1,19 @@
+# 2026-04-24
+
+- [claude-context](claude-context.md) [⭐8.3k](https://github.com/zilliztech/claude-context) TypeScript Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
+- [RAG-Anything](RAG-Anything.md) [⭐18.1k](https://github.com/HKUDS/RAG-Anything) Python "RAG-Anything: All-in-One RAG Framework"
+- [RuView](RuView.md) [⭐49.7k](https://github.com/ruvnet/RuView) Rust π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.
+- [free-claude-code](free-claude-code.md) [⭐5.2k](https://github.com/Alishahryar1/free-claude-code) Claude Code, プロキシ, NVIDIA NIM, OpenRouter, LM Studio, Discord Bot, Anthropic API互換 Claude Code の Anthropic API 呼び出しを NVIDIA NIM / OpenRouter / DeepSeek / LM Studio / llama.cpp に透過的にルーティングして、無料または自前ホストで Claude Code を動かすためのプロキシサーバ。
+- [OpenMetadata](OpenMetadata.md) [⭐12.9k](https://github.com/open-metadata/OpenMetadata) TypeScript OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.
+- [ai-agents-for-beginners](ai-agents-for-beginners.md) [⭐58.7k](https://github.com/microsoft/ai-agents-for-beginners) Jupyter Notebook 12 Lessons to Get Started Building AI Agents
+- [PowerShell](PowerShell.md) [⭐52.7k](https://github.com/PowerShell/PowerShell) PowerShell, cross-platform, shell, automation, .NET, cmdlet, scripting, CLI, DevOps, object-pipeline Windows / Linux / macOS で動作する、オブジェクト指向パイプラインを備えたクロスプラットフォーム自動化シェル&スクリプト言語 (PowerShell 7+) の本体ソースコード。
+- [cline](cline.md) [⭐60.8k](https://github.com/cline/cline) VS Code拡張, AIコーディングエージェント, MCP, ターミナル操作, ブラウザ操作 ファイル編集・コマンド実行・ブラウザ操作までこなす、IDE内で動く人間承認付きの自律型AIコーディングエージェント。
+- [onnxruntime](onnxruntime.md) [⭐20.1k](https://github.com/microsoft/onnxruntime) ONNX, 推論エンジン, 機械学習, クロスプラットフォーム, Execution Provider, ハードウェアアクセラレーション, モデル最適化, C++, Python, エッジ推論 ONNX形式のMLモデルを多様なハードウェア上で高速に推論・学習させるためのクロスプラットフォーム・マルチ言語対応のランタイム。
+- [context-mode](context-mode.md) [⭐9.3k](https://github.com/mksglu/context-mode) MCP, context window, sandbox, AI coding agent, session continuity AIコーディングエージェントのコンテキストウィンドウをサンドボックスとFTS5で守るMCPサーバー。
+- [marketingskills](marketingskills.md) [⭐23.6k](https://github.com/coreyhaines31/marketingskills) Agent Skills, マーケティング, CRO, SEO, コピーライティング, Claude Code, プラグイン, Growth マーケティング業務（CRO・コピー・SEO・分析・グロース）を AI エージェントに任せるための Agent Skills 集。
+- [aie-book](aie-book.md) [⭐15.1k](https://github.com/chiphuyen/aie-book) AI Engineering, 書籍補助資料, 基盤モデル, LLM, リソース集 Chip Huyen著『AI Engineering』(O'Reilly, 2025) の補助資料と、AIエンジニア向け学習リソースを集約した公式リポジトリ。
+- [awesome-agent-skills](awesome-agent-skills.md) [⭐17.9k](https://github.com/VoltAgent/awesome-agent-skills) agent-skills, awesome-list, claude-code, codex, ai-coding-assistant Claude Code / Codex / Cursor などに対応した「Agent Skill」1100+ 件を、公式配布と実運用されている有用なものだけに絞って厳選した awesome リスト。
+
 # 2026-04-23
 
 - [claude-context](claude-context.md) [⭐7.4k](https://github.com/zilliztech/claude-context) TypeScript Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
