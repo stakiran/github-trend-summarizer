@@ -1,3 +1,16 @@
+# 2026-04-25
+
+- [free-claude-code](free-claude-code.md) [⭐8.3k](https://github.com/Alishahryar1/free-claude-code) Python Use claude-code for free in the terminal, VSCode extension or via discord like openclaw
+- [osv-scanner](osv-scanner.md) [⭐9.4k](https://github.com/google/osv-scanner) vulnerability-scanner, OSV, SCA, dependency-scan, container-scan, Go, SBOM, guided-remediation, offline-mode OSV.dev のオープンな脆弱性DBを用いて、プロジェクトの依存関係・コンテナ・OSパッケージの既知脆弱性を検出する Google 公式の Go 製スキャナ。
+- [claude-context](claude-context.md) [⭐8.9k](https://github.com/zilliztech/claude-context) TypeScript Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
+- [OpenMetadata](OpenMetadata.md) [⭐13.3k](https://github.com/open-metadata/OpenMetadata) TypeScript OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.
+- [posthog](posthog.md) [⭐33.0k](https://github.com/PostHog/posthog) Python 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
+- [vaultwarden](vaultwarden.md) [⭐59.1k](https://github.com/dani-garcia/vaultwarden) Bitwarden, Rust, password-manager, self-hosted, Docker, Rocket, Diesel, SQLite, MySQL, PostgreSQL 公式 Bitwarden クライアント互換の軽量なパスワードマネージャサーバを Rust で再実装した、セルフホスト向けの非公式実装。
+- [Open-Generative-AI](Open-Generative-AI.md) [⭐7.6k](https://github.com/Anil-matcha/Open-Generative-AI) 生成AI, 画像生成, 動画生成, セルフホスト, Muapi, Electron, Next.js, リップシンク, オープンソース, 200モデル 200以上のAI画像・動画モデル（Flux/Sora/Veo/Kling等）をフィルタなし・自前環境で扱えるセルフホスト型の統合生成AIスタジオ。
+- [build-your-own-x](build-your-own-x.md) [⭐494.5k](https://github.com/codecrafters-io/build-your-own-x) tutorial-collection, learn-by-building, awesome-list, from-scratch, programming-education 有名な技術（OS・DB・Git・ブラウザ等）を自作するチュートリアル記事を分野別に集めた巨大なリンク集リポジトリ。
+- [DeepEP](DeepEP.md) [⭐9.3k](https://github.com/deepseek-ai/DeepEP) MoE, expert-parallel, all-to-all, NVSHMEM, RDMA, NVLink, FP8, low-latency, CUDA, DeepSeek-V3 Mixture-of-Experts（MoE）の dispatch / combine を高速化する、GPU 向け expert-parallel 通信ライブラリ。
+- [typescript-go](typescript-go.md) [⭐25.0k](https://github.com/microsoft/typescript-go) TypeScript, Go, compiler, native port, tsgo, LSP, type-checker, TypeScript 7, Corsa Microsoft 公式の TypeScript コンパイラ／言語サービスを Go で書き直した「TypeScript 7（ネイティブ版）」のステージング開発リポジトリ。
+
 # 2026-04-24
 
 - [claude-context](claude-context.md) [⭐8.3k](https://github.com/zilliztech/claude-context) TypeScript Code search MCP for Claude Code. Make entire codebase the context for any coding agent.
