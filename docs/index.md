@@ -1,3 +1,18 @@
+# 2026-04-26
+
+- [free-claude-code](free-claude-code.md) [⭐11.3k](https://github.com/Alishahryar1/free-claude-code) Python Use claude-code for free in the terminal, VSCode extension or via discord like openclaw
+- [skills](skills.md) [⭐19.6k](https://github.com/mattpocock/skills) AI agent, skills management, CLI, Claude Code, package manager 45以上のAIコーディングエージェントに対応した「スキル」パッケージマネージャーCLIツール。
+- [hackingtool](hackingtool.md) [⭐63.6k](https://github.com/Z4nzu/hackingtool) ペネトレーションテスト, ハッキングツール統合, セキュリティ診断 185以上のペネトレーションテストツールをカテゴリ別メニューから一括インストール・起動できるオールインワンハッキングツールランチャー。
+- [posthog](posthog.md) [⭐33.4k](https://github.com/PostHog/posthog) Python 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
+- [claude-code-templates](claude-code-templates.md) [⭐25.3k](https://github.com/davila7/claude-code-templates) Claude Code, コンポーネントライブラリ, CLI, エージェント, MCP Claude Code 向けのエージェント・コマンド・フック等のコンポーネントを npx 1コマンドでプロジェクトへインストールできるパッケージ管理CLI。
+- [DeepEP](DeepEP.md) [⭐9.5k](https://github.com/deepseek-ai/DeepEP) Cuda DeepEP: an efficient expert-parallel communication library
+- [PowerShell](PowerShell.md) [⭐53.0k](https://github.com/PowerShell/PowerShell) C# PowerShell for every system!
+- [Roo-Code](Roo-Code.md) [⭐23.5k](https://github.com/RooCodeInc/Roo-Code) VSCode拡張, AIコーディングエージェント, マルチLLM対応, 自律エージェント, カスタムモード VSCode上で動作するオープンソースのAI自律コーディングエージェントで、40以上のLLMプロバイダーに対応しファイル操作・コマンド実行・コードレビューを自動化する。
+- [ml-intern](ml-intern.md) [⭐6.1k](https://github.com/huggingface/ml-intern) 自律型MLエージェント, Hugging Face, 論文調査, モデル学習, コード生成 Claude AIを使って論文調査・モデル訓練・Hubへのデプロイまでをエンドツーエンドで自律実行するMLエンジニアリングアシスタント。
+- [build-your-own-x](build-your-own-x.md) [⭐495.8k](https://github.com/codecrafters-io/build-your-own-x) Markdown Master programming by recreating your favorite technologies from scratch.
+- [ucp](ucp.md) [⭐2.8k](https://github.com/Universal-Commerce-Protocol/ucp) オープンスタンダード, AIエージェント, 商取引プロトコル, JSON Schema, 決済相互運用性 AIエージェントと複数プラットフォーム間でEC取引を安全に自動化するためのオープン商取引仕様。
+- [awesome-codex-skills](awesome-codex-skills.md) [⭐1.4k](https://github.com/ComposioHQ/awesome-codex-skills) Codex CLI, スキル, ワークフロー自動化, Composio, MCP Codex CLI／API 向けのモジュール型「スキル」を厳選したキュレーションリポジトリで、SKILL.md 一ファイルを配置するだけで Codex のふるまいを拡張できる。
+
 # 2026-04-25
 
 - [free-claude-code](free-claude-code.md) [⭐8.3k](https://github.com/Alishahryar1/free-claude-code) Python Use claude-code for free in the terminal, VSCode extension or via discord like openclaw
