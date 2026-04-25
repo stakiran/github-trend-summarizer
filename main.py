@@ -114,15 +114,26 @@ oneliner: このリポジトリの端的な日本語の説明（1文）
 """
 
 
+EMPTY_MCP_CONFIG = '{"mcpServers":{}}'
+
+
 def generate_summary_with_claude_cli(owner, repo, language, description, repo_dir):
-    """claude CLI でリポジトリを自律探索させてサマリーを生成する"""
-    user_prompt = f"""このディレクトリは GitHub リポジトリ {owner}/{repo} のソースコードです。
+    """claude CLI でリポジトリを自律探索させてサマリーを生成する
+
+    セキュリティ上の理由で、claude は cloned repo の中では実行しない。
+    repo 配下の .claude/settings.json (hooks)、.mcp.json、CLAUDE.md は
+    任意コードの実行やプロンプト汚染に利用され得るため、以下で防御する:
+      - cwd を BASE_DIR にし、repo は --add-dir で読み取り対象としてのみ渡す
+      - --setting-sources user で project/local の settings (hooks 含む) を無効化
+      - --strict-mcp-config + 空の --mcp-config で MCP を完全遮断
+    """
+    user_prompt = f"""GitHub リポジトリ {owner}/{repo} のソースコードが {repo_dir} に展開されています。
 
 リポジトリのURL: https://github.com/{owner}/{repo}
 リポジトリの説明: {description}
 主要言語: {language}
 
-自分でソースコードを探索して、以下を A4 一枚程度で整理して。
+そのディレクトリの中を自分で探索して、以下を A4 一枚程度で整理して。
 
 - このリポジトリは何？
 - このリポジトリは何が嬉しいの？既存の似た手段と比較して。
@@ -130,11 +141,19 @@ def generate_summary_with_claude_cli(owner, repo, language, description, repo_di
 """
 
     result = subprocess.run(
-        ["claude", "-p", user_prompt, "--system-prompt", SYSTEM_PROMPT, "--max-turns", "10"],
+        [
+            "claude", "-p", user_prompt,
+            "--system-prompt", SYSTEM_PROMPT,
+            "--max-turns", "10",
+            "--add-dir", str(repo_dir),
+            "--setting-sources", "user",
+            "--strict-mcp-config",
+            "--mcp-config", EMPTY_MCP_CONFIG,
+        ],
         capture_output=True,
         text=True,
         encoding="utf-8",
-        cwd=str(repo_dir),
+        cwd=str(BASE_DIR),
     )
     if result.returncode != 0:
         print(f"  claude CLI error: {result.stderr}")
