@@ -1,3 +1,15 @@
+# 2026-04-27
+
+- [skills](skills.md) [⭐22.8k](https://github.com/mattpocock/skills) Shell Agent Skills for real engineers. Straight from my .claude directory.
+- [free-claude-code](free-claude-code.md) [⭐13.2k](https://github.com/Alishahryar1/free-claude-code) Python Use claude-code for free in the terminal, VSCode extension or via discord like openclaw
+- [hackingtool](hackingtool.md) [⭐65.2k](https://github.com/Z4nzu/hackingtool) Python ALL IN ONE Hacking Tool For Hackers
+- [GitNexus](GitNexus.md) [⭐30.0k](https://github.com/abhigyanpatwari/GitNexus) TypeScript GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration
+- [posthog](posthog.md) [⭐33.8k](https://github.com/PostHog/posthog) Python 🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.
+- [typescript-go](typescript-go.md) [⭐25.1k](https://github.com/microsoft/typescript-go) Go Staging repo for development of native port of TypeScript
+- [cua](cua.md) [⭐14.3k](https://github.com/trycua/cua) Computer-Use Agent, VM サンドボックス, macOS仮想化, LLM, デスクトップ自動化 AI エージェントがデスクトップ (macOS/Linux/Windows/Android) を操作するためのオープンソース統合基盤（サンドボックス・SDK・ベンチマーク）。
+- [build-your-own-x](build-your-own-x.md) [⭐496.7k](https://github.com/codecrafters-io/build-your-own-x) Markdown Master programming by recreating your favorite technologies from scratch.
+- [awesome-codex-skills](awesome-codex-skills.md) [⭐1.9k](https://github.com/ComposioHQ/awesome-codex-skills) Python A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
+
 # 2026-04-26
 
 - [free-claude-code](free-claude-code.md) [⭐11.3k](https://github.com/Alishahryar1/free-claude-code) Python Use claude-code for free in the terminal, VSCode extension or via discord like openclaw
