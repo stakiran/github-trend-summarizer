@@ -156,7 +156,11 @@ def generate_summary_with_claude_cli(owner, repo, language, description, repo_di
         cwd=str(BASE_DIR),
     )
     if result.returncode != 0:
-        print(f"  claude CLI error: {result.stderr}")
+        print(f"  claude CLI error (returncode={result.returncode})")
+        if result.stderr:
+            print(f"    stderr: {result.stderr.strip()}")
+        if result.stdout:
+            print(f"    stdout: {result.stdout.strip()[:1000]}")
         return None
     return result.stdout
 
