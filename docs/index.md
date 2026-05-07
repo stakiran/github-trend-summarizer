@@ -1,3 +1,7 @@
+# 2026-05-08
+
+- [financial-services](financial-services.md) [⭐11.2k](https://github.com/anthropics/financial-services) Claude, financial-services, plugins, managed-agents, MCP, skills, investment-banking, equity-research 投資銀行・エクイティリサーチ・PE・ウェルスマネジメント向けの Claude エージェント／スキル／データコネクタのリファレンス実装集（Anthropic 公式）。
+
 # 2026-04-27
 
 - [skills](skills.md) [⭐22.8k](https://github.com/mattpocock/skills) Shell Agent Skills for real engineers. Straight from my .claude directory.
