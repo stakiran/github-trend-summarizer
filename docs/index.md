@@ -1,5 +1,20 @@
 # 2026-05-08
 
+- [financial-services](financial-services.md) [⭐11.2k](https://github.com/anthropics/financial-services) Python 
+- [DeepSeek-TUI](DeepSeek-TUI.md) [⭐18.4k](https://github.com/Hmbown/DeepSeek-TUI) DeepSeek, TUI, coding agent, Rust, ratatui, terminal, MCP, LSP, auto-mode, sub-agents DeepSeek V4 をバックエンドに、ターミナル上で動作する Rust 製のキーボード駆動コーディングエージェント TUI。
+- [dflash](dflash.md) [⭐3.4k](https://github.com/z-lab/dflash) speculative-decoding, block-diffusion, LLM-inference, draft-model, vLLM, SGLang ブロック拡散モデルを用いて LLM の投機的デコーディング（Speculative Decoding）を高速化する軽量ドラフトモデル「DFlash」の公式実装。
+- [local-deep-research](local-deep-research.md) [⭐6.2k](https://github.com/LearningCircuit/local-deep-research) Deep Research, Local LLM, Ollama, RAG, SearXNG ローカル LLM と多数の検索エンジンを組み合わせ、引用付きの「深い調査レポート」を自分のマシン上で生成できるプライバシー重視の AI リサーチアシスタント。
+- [agent-skills](agent-skills.md) [⭐32.7k](https://github.com/addyosmani/agent-skills) AI coding agents, skills, slash commands, software lifecycle, prompt engineering, code quality AIコーディングエージェントに「シニアエンジニア相当の開発プロセス」を踏ませるためのスキル/スラッシュコマンド集。
+- [PageIndex](PageIndex.md) [⭐29.5k](https://github.com/VectifyAI/PageIndex) RAG, Vectorless, LLM, Tree Index, Reasoning, PDF, Document Retrieval 長文ドキュメントを「目次ツリー」として索引化し、LLMの推論でツリー探索することでベクトルDBを使わずに高精度な検索を行う"Vectorless RAG"フレームワーク。
+- [open-agents](open-agents.md) [⭐5.0k](https://github.com/vercel-labs/open-agents) TypeScript An open source template for building cloud agents.
+- [docuseal](docuseal.md) [⭐15.5k](https://github.com/docusealco/docuseal) e-signature, PDF, document-signing, DocuSign-alternative, Ruby on Rails PDF にフォーム項目を配置し、Web 上で記入・電子署名を完結させられる、オープンソースの DocuSign 代替プラットフォーム。
+- [9router](9router.md) [⭐4.4k](https://github.com/decolua/9router) AI router, token saver, fallback, OAuth, OpenAI compatible 複数のAIコーディングCLI(Claude Code/Codex/Cursor等)を、無料・サブスク・格安の40+プロバイダにルーティングし、トークン節約と自動フォールバックで「コーディングを止めない」ローカルプロキシ。
+- [TabPFN](TabPFN.md) [⭐6.8k](https://github.com/PriorLabs/TabPFN) Python ⚡ TabPFN: Foundation Model for Tabular Data ⚡
+- [goose](goose.md) [⭐44.4k](https://github.com/aaif-goose/goose) Rust an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+- [openreel-video](openreel-video.md) [⭐1.6k](https://github.com/Augani/openreel-video) video editor, browser-based, WebCodecs, WebGPU, CapCut alternative, React, TypeScript, client-side, open source, MIT ブラウザだけで完結する完全クライアントサイド動画エディタ（CapCut のオープンソース代替）
+
+# 2026-05-08
+
 - [financial-services](financial-services.md) [⭐11.2k](https://github.com/anthropics/financial-services) Claude, financial-services, plugins, managed-agents, MCP, skills, investment-banking, equity-research 投資銀行・エクイティリサーチ・PE・ウェルスマネジメント向けの Claude エージェント／スキル／データコネクタのリファレンス実装集（Anthropic 公式）。
 
 # 2026-04-27
